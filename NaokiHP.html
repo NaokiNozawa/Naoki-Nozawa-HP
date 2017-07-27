@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--https://saruwakakun.com/html-css/basic -->
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Naoki Nozawa Home Page</title>
+  <style>
+    body 
+    {
+      color: #2F4F4F;
+      font-size: 15px;
+      background: #FFF8DC;
+      border: solid 10px gray
+    }
+
+	.h2section 
+	{
+ 		margin-left: 30px;
+ 		margin-right: 30px;
+ 		margin-top: 30px;
+ 		margin-bottom: 30px;
+ 		padding-left: 10px;
+ 		padding-right: 10px;
+ 		border: solid 5px gray
+	}
+
+	#headline 
+	{
+ 		padding-left: 10px;
+ 		padding-right: 10px
+	}
+
+	.Avatar 
+	{
+		float: left;/*テキストが右側に回り込まれる*/
+		margin-left: 30px;
+		margin-right: 20px;
+		width: 200px;
+ 		height: 200%
+ 		/*width: 30%;
+ 		height: 10%*/
+	}
+	
+	.Thumbnail 
+	{
+		float: left;/*テキストが右側に回り込まれる*/
+		margin-left: 10px;
+		margin-right: 20px;
+ 		height: 100px
+ 		/*width: 30%;
+ 		height: 10%*/
+	}
+
+	.clear 
+	{
+    	clear: both;
+	}
+
+</style>
+</head>
+
+
+<body>
+
+  <div id="headline">
+  	<p>
+  		<img src="http://www.mlab.phys.waseda.ac.jp/member/NaokiNozawa/img/NaokiAvator.bmp"  class="Avatar"/>
+  		<h1>野澤　直樹</h1> 
+  		早稲田大学　博士後期課程１年 <br>
+  		<h3>所属</h3> 
+  		先進理工学研究科 物理学及応用物理学専攻 <a href="http://www.mlab.phys.waseda.ac.jp/">森島研究室</a> <br> 
+  		博士課程教育リーディングプログラム <a href="http://www.leading-sn.waseda.ac.jp/">実体情報学博士プログラム</a> 
+  	</p>
+  </div>
+
+  <br class="clear">
+
+  <div class="h2section">
+  	<h2>Biography </h2>
+  		<ul><!--ドットで箇条書き/-->
+  			<li>中学：　茨城大学教育学部附属中学校</li>
+  			<li>高校：　水戸第一高等学校</li>
+  			<li>大学：　早稲田大学、大学院</li>
+  		</ul> 
+  </div>
+
+  <div class="h2section">
+  	<h2>Research Interest </h2>
+  		<h3>Computer Graphics, Computer Vision</h3>
+  		<ul><!--ドットで箇条書き/-->
+			<li>3D Modeling</li>
+			<li>Image Processing</li>
+			<li>Machine Learning</li>
+		</ul>
+  		<p>昨今3Dモデルが様々な分野（認証,ゲーム,ファブリケーション...）で応用されるようになりました。しかし,それら3Dモデルを扱うには専門的な知識や経験が要求され,未だに一般ユーザーには敷居の高いものとなっています。
+		そのような3Dモデルを一般ユーザーが直感的に編集できるシステムの完成を最終目標とし,画像処理を通じて3次元情報を編集する研究を行っています。</p>
+  </div>
+
+  <div class="h2section">
+  	<h2>Project</h2>
+		<p>
+			<img src="http://www.mlab.phys.waseda.ac.jp/member/NaokiNozawa/img/FaceP.png"  class="Thumbnail"/>
+			<h3>3D Face Reconstruction</h3> 
+			２次元の顔画像から３次元の顔形状を復元するプロジェクトです。顔認証精度の向上や犯罪捜査への導入,ゲーム分野への応用を目指し研究を進めています。<br><br><br>
+		</p>
+
+		<p>
+			<img src="http://www.mlab.phys.waseda.ac.jp/member/NaokiNozawa/img/ResizeP.png"  class="Thumbnail"/>
+			<h3>3D Content-Aware Resizing</h3> 
+			モデルの個性（形状とテクスチャ）を保持したままリサイズするプロジェクトです。モデリング経験のない一般的なユーザーでも簡単にモデルを編集できるシステムを開発しています。<br><br><br>
+		</p>
+
+		<p>
+			<img src="http://www.mlab.phys.waseda.ac.jp/member/NaokiNozawa/img/MountP.png"  class="Thumbnail"/>
+			<h3>Moutain Path Estimation</h3> 
+			3次元の山形状上に、自動的に最適な山道(林道)を生成するプロジェクトです。 効率的な集材や直感・経験の定量化など,日本の林業を支援する研究を行っています。<br><br><br>
+		</p>
+		
+		<p>
+			<img src="http://www.mlab.phys.waseda.ac.jp/member/NaokiNozawa/img/CarP.png"  class="Thumbnail"/>
+			<h3>Car Modeling Assistance</h3> 
+			Now Going...<br><br><br>
+		</p>
+  </div>
+
+  <div class="h2section">
+  	<h2>Publication</h2>
+  		<h3>main</h3>
+  			<ul><!--ドットで箇条書き/-->
+				<li>“単一斜め顔画像からの3次元顔モデル高速自動生成”. 野澤直樹. ビジュアル情報処理合宿. 2014. ポスター発表 査読なし</li>
+				<li>“顔画像のシルエット情報に基づく3次元顔形状復元”.野澤直樹, 桑原大樹, 森島繁生. 情報処理学会第77回全国大会. 2015. 口頭発表.　査読なし</li>
+				<li>“頬のシルエット情報を活用した単一斜め向き顔画像に対する顔形状3次元復元手法”. 	野澤直樹, 森島繁生. 第159回情報処理学会グラフィックスとCAD研究会. 2015. ポスター発表. 査読なし</li>
+				<li>“斜めを向いた顔画像に対する顔形状3次元復元の研究”. 野澤直樹，森島繁生. 第18回画像の認識・理解シンポジウム — MIRU2015. 2015. ポスター発表. 査読なし</li>
+				<li>“3D Face Reconstruction from a Single non-frontal Face Image”. Naoki Nozawa, Daiki Kuwahara, Shigeo Morishima.. SIGGRAPH. 2015. ポスター発表. 査読あり</li>
+				<li>"Forest Roads Design and 3D Visualization for Steep Mountains". Naoki Nozawa, Shoma Fujii, Ryuya Sato, Ryo Suzuki, Yuko Shirai. IUFRO 125th Congress. 2017. ポスター発表.　査読あり </li>
+				<li>"3D Model Partial-Resizing via Normal and Texture Map Combination". Naoki Nozawa, Tsukasa Fukusato, Shigeo Morishima. SIGGRAPH. 2017. ポスター発表. 査読あり</li>
+				<li></li>
+			</ul>
+
+  		<h3>sub</h3>
+  			<ul><!--ドットで箇条書き/-->
+				<li>“主成分分析に基づく類似口形状検出によるビデオ翻訳動画の生成”. 	第161回グラフィックスとCAD研究会. 2015. 古川翔一, 加藤卓哉, 野澤直樹, サフキンパーベル, 森島繁生. 口頭発表. 査読なし</li>
+				<li>“顔画像特徴と眠気の相関に基づくドライバーの眠気検出”. 佐藤優伍，野澤直樹，森島繁生. 情報処理学会第78回全国大会. 2016. 口頭発表. 査読なし</li>
+				<li>“フレームリシャッフリングに基づく事前知識を用いない吹替映像の生成”. 古川翔一，加藤卓哉，野澤直樹，パーベル サフキン，森島繁生. 情報処理学会第78回全国大会. 2016. 口頭発表. 査読なし</li>
+				<li>“パッチ単位の法線推定による三次元顔形状復元”. 野沢綸佐，加藤卓哉，野澤直樹，パーベル サフキン，森島繁生. 情報処理学会第78回全国大会. 2016. 口頭発表. 査読なし</li>
+				<li>“顔形状の左右非対称性に基づくドライバーの眠気検出精度の改善”. 佐藤優伍, 加藤卓哉, 野澤直樹, 森島繁生. 第19回画像の認識・理解シンポジウム. 2016. ポスター発表. 査読なし</li>
+				<li>“顔の変化による眠そうな顔の認知”. 佐藤優伍, 加藤卓哉, 野澤直樹, 森島繁生. 第21回 日本顔学会大会 (フォーラム顔学). 2016. 口頭発表. 査読なし</li>
+				<li>“3D Facial Geometry Reconstruction Using Patch Database”. Tsukasa Nozawa, Takuya Kato, Pavel Savkin, Naoki Nozawa, Shigeo Morishima. SIGGRAPH. 2016. ポスター発表. 査読あり</li>
+				<li>“Perception of drowsiness based on correlation with facial image features”. Yugo Sato, Takuya Kato, Pavel Savkin, Naoki Nozawa, Shigeo Morishima. SAP. 2016. ポスター発表. 査読あり</li>
+			</ul>
+  </div>
+  
+   <div class="h2section">
+  	<h2>Others</h2>
+		<ul>
+			<li>“Innovation of Railway system”. International Symposium on Railway System. 2015. Ryuya Sato, Naoki Nozawa, Tamon Miyake, Satoshi Funabashi. 口頭発表. 査読なし</li>	
+			<li>“三次元計測・復元”.　石川 涼一, 佐々木 善一郎, 高橋 康輔, 武原 光, 田中 賢一郎, 中川 陽介, 野澤 直樹, 樋口 未来. MIRU2015 若手の会. 2015. 口頭発表. 査読なし</li>
+		</ul>
+  </div>
+
+  <div class="h2section">
+  	<h2>Award</h2>
+		<ul>
+			<li>ビジュアル情報処理合宿. 2014. VIP AWARD for Audience. 野澤直樹</li>
+			<li>情報処理学会第77回全国大会. 2015. 学生奨励賞．野澤直樹</li>
+			<li>第159回情報処理学会グラフィックスとCAD研究会. 2015. 卒業研究ポスター発表賞. 野澤直樹</li>
+			<li>MIRU2015 若手の会. 2015. 若手優秀賞. 石川 涼一, 佐々木 善一郎, 高橋 康輔, 武原 光, 田中 賢一郎, 中川 陽介, 野澤 直樹, 樋口 未来</li>
+			<li>SIGGRAPH. 2015. Student Research Competition Semi-Finalist. Naoki Nozawa, Daiki Kuwahara, Shigeo Morishima.</li>
+			<li>SIGGRAPH. 2017. Student Research Competition Semi-Finalist. Naoki Nozawa, Tsukasa Fukusato, Shigeo Morishima.</li>
+		</ul>
+  </div>
+
+  <div class="h2section">
+  	<h2>Patent</h2>
+		<ul>
+			<li>"路網ルート設計装置及びそのプログラム、並びに路網ルート". 白井裕子, 野澤直樹, 藤井祥万, 佐藤隆哉, 加藤卓哉. 特願2016-95747. 平成28年5月12日出願</li>
+		</ul>
+  </div>
+  
+    <div class="h2section">
+  	<h2>Study Abroad</h2>
+		<ul>
+			<li>University of California, Davis. 2015. 語学留学.</li>
+			<li></li>
+		</ul>
+  	<p>I'm looking forward to hearing from you.</p>
+  </div>
+  
+  <div class="h2section">
+  	<h2>Collaboration</h2>
+		<ul>
+			<li>沖電気工業株式会社 2016</li>
+			<li>株式会社資生堂 2016</li>
+			<li>有限会社天竜フォレスター 2015 2016</li>
+			<li>株式会社ポリフォニー・デジタル 2016 2017</li>
+		</ul>
+  	<p>I'm looking forward to hearing from you.</p>
+  </div>
+
+</body>
+</html>
